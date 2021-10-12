@@ -20,8 +20,25 @@
 						<li>Click your Gender Preference</li>
 					</ol>
 					<p>Voila! it augenerates your "NEW COOL NAME"</p>		
+
 			</div>
-					<div class="col-md-6 text center">
+			<form class="row g-3 needs-validation" novalidate>
+				<div class="col-md-6">
+					<label for="Enter DOB" class="form-label">Birthday</label>
+					<input type="date" class="form-control" id="DOB" value="Otto" required>
+					<div class="valid-feedback">
+						Looks good!
+					</div>
+				</div>
+				<div class="col-md-12">
+					<input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
+					<label class="btn btn-outline-danger" for="danger-outlined">Male</label>
+					<input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
+					<label class="btn btn-outline-danger" for="danger-outlined">Female</label>
+				</div>		
+			</form>	
+
+					<div class="col-md-4 text center">
 						<p>Female Names</p>
 						<p>
 							<ol>
@@ -36,31 +53,17 @@
 							<p>Male Names</p>
 						<p>
 							<ol>
-								<li>Sunday:    Kwasi
-								<li>Monday:    Kwadwo</li>
-								<li>Tuesday:   Kwabena</li>
-								<li>Wednesday: Kwaku</li>
-								<li>Thursday:  Yaw</li>
-								<li>Friday:    Kofi</li>
-								<li>Saturday:  Kwame</li>
+								<li>Sunday:Kwasi
+								<li>Monday:Kwadwo</li>
+								<li>Tuesday:Kwabena</li>
+								<li>Wednesday:Kwaku</li>
+								<li>Thursday:Yaw</li>
+								<li>Friday:Kofi</li>
+								<li>Saturday:Kwame</li>
 							</ol>
 						</div>		
 						<!--Start of Form-->
-						<form class="row g-3 needs-validation" novalidate>
-							<div class="col-md-4">
-								<label for="Enter DOB" class="form-label">Birthday</label>
-								<input type="date" class="form-control" id="DOB" value="Otto" required>
-								<div class="valid-feedback">
-									Looks good!
-								</div>
-							</div>
-							<div class="col-md-12">
-								<input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
-							  <label class="btn btn-outline-danger" for="danger-outlined">Male</label>
-						    <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
-						    <label class="btn btn-outline-danger" for="danger-outlined">Female</label>
-							</div>		
-						</form>	
+						
 	   	  <!--end of form-->
 		</div>
 		</div>
