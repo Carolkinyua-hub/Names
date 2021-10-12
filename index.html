@@ -7,38 +7,54 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">	
 </head>
 <body>
+	<!--Main container-->>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-12">
 				<img src="images/Images/King and Queen.jpeg"class="img">
+			</div>
+			<!--First Row-->
+			<div class="col-md-6 ">
+				<p>Hey there!</p>
+				<p>Get a new African name in 2 easy steps.</p>
+				<p>
+					<ol>
+						<li>Enter your Birthday</li>
+						<li>Click your Gender Preference</li>
+					</ol>
+					<p>Voila! it augenerates your "NEW COOL NAME"</p>	
+			</div>
+			<!--Second Row-->	
+					<div class="row">
+						<div class="col-md-offset-md-12">
+							<p>Hey there!</p>
+							<p>Get a new African name in 2 easy steps.</p>
+							<p>
+								<ol>
+									<li>Enter your Birthday</li>
+									<li>Click your Gender Preference</li>
+								</ol>
+								<p>Voila! it augenerates your "NEW COOL NAME"</p>
+					</div>
+					<!--Form-->
+			<form class="row g-3 needs-validation" novalidate>
+				<div class="col-md-12">
 				</div>
-				<form class="row g-3 needs-validation" novalidate>
-					<div class="col-md-12">
+				<div class="col-md-4">
+					<label for="Enter DOB" class="form-label">Birthday</label>
+					<input type="date" class="form-control" id="DOB" value="Otto" required>
+					<div class="valid-feedback">
+						Looks good!
 					</div>
-					<div class="col-md-4">
-						<label for="Enter DOB" class="form-label">Birthday</label>
-						<input type="date" class="form-control" id="DOB" value="Otto" required>
-						<div class="valid-feedback">
-							Looks good!
-						</div>
-					</div>
-					<div class="col-md-12">
-						<input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
-			<label class="btn btn-outline-danger" for="danger-outlined">Male</label>
-			<input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
-			<label class="btn btn-outline-danger" for="danger-outlined">Female</label>
-					</div>
-				
-			</form>	
-		</div>
-		
-
-		
-
-		
+				</div>
+				<div class="col-md-12">
+					<input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
+		<label class="btn btn-outline-danger" for="danger-outlined">Male</label>
+		<input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
+		<label class="btn btn-outline-danger" for="danger-outlined">Female</label>
+				</div>		
+		</form>	
+		<!--end of form-->
 	</div>
-		
-	
-
 </body>
 </html>
