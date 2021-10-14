@@ -1,12 +1,9 @@
 
-let yy=function myFunction(){
-	console.log(parseInt(document.getElementById("bday").value))
+function myFunction(){
+	let yy=(document.getElementById("bday").value)
+	console.log(yy);
 	};
-	
-let cc= function century(){
-yy.slice(0,1);
-console.log (cc);
-};
+
 
 	
 	
