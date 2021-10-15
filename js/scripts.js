@@ -19,18 +19,15 @@
 	console.log(exactDay);
 };
 */
-function myGenderfunction(){
-	let female=(document.getElementById("female").value)
-	let male=(document.getElementById("male").value)
+
+function myGenderFunction(){
 	
+let gender=	document.getElementById("female").checked
 
-	if (female=true)
-	{
-		console.log(female);
-	}
-		else  {
+console.log(gender)
 
-		console.log(male);
-		}
+let genderX=document.getElementById("male").checked
+
+console.log(genderX)
 
 	};
