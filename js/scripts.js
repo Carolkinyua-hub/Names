@@ -4,15 +4,16 @@ function myFunction(){
 	console.log(yy);
 
 let newDate=new Date()
-console.log newDate)
+console.log (newDate)
 
-let year=newdate.getyear()
-console.log(year)	
+let year=newDate.getFullYear();
+console.log(year);
 
-let month=newdate.getmonth()
-console.log(month)
-let day=newdate.getday
+let month=newDate.getMonth();
+console.log(month);
 
+let day=newDate.getDate();
+console.log(day)
 };
 
 
