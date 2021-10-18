@@ -3,8 +3,8 @@ function myFunction(){
 	let yy=(document.getElementById("bday").value)
 	console.log(yy);
 
-   let newDate=new Date(yy)
-   console.log (newDate);
+  let newDate=new Date(yy)
+  console.log (newDate);
 
   let year=newDate.getFullYear();
   console.log(year);
@@ -21,16 +21,16 @@ function myFunction(){
 		
   console.log(gender);
 
-    let female=document.getElementById(id="female").checked;
-    console.log(female);
+  let female=document.getElementById(id="female").checked;
+  console.log(female);
 
-    let male=document.getElementById(id="male").checked;
-    console.log(male);
+  let male=document.getElementById(id="male").checked;
+  console.log(male);
 
-    let akanFemale=["Akosua","Adwoa","Abenaa","Akua", "Yaa","Afua", "Ama"];
-    let akanMale=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+  let akanFemale=["Akosua","Adwoa","Abenaa","Akua", "Yaa","Afua", "Ama"];
+  let akanMale=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 
-    if(exactDay===0 && male===true){
+  if(exactDay===0 && male===true){
       console.log(akanMale[0]);
       document.getElementById("demo").innerHTML ="Your Akan Name is" +" "+ (akanMale[0]);
       
@@ -41,7 +41,7 @@ function myFunction(){
 
       }
 
-      if(exactDay===1 && male===true){
+  if(exactDay===1 && male===true){
         console.log(akanMale[1]);
         document.getElementById("demo").innerHTML ="Your Akan Name is" +" "+ (akanMale[1]);
         
@@ -51,7 +51,7 @@ function myFunction(){
           document.getElementById("demo").innerHTML ="Your Akan Name is" +" "+ (akanFemale[1]);   
   
         }
-        if(exactDay===2 && male===true){
+  if(exactDay===2 && male===true){
           console.log(akanMale[2]);
           document.getElementById("demo").innerHTML ="Your Akan Name is" +" "+ (akanMale[1]);
           
@@ -61,7 +61,7 @@ function myFunction(){
             document.getElementById("demo").innerHTML ="Your Akan Name is" +" "+ (akanFemale[2]);   
     
           } 
-          if(exactDay===3 && male===true){
+    if(exactDay===3 && male===true){
             console.log(akanMale[3]);
             document.getElementById("demo").innerHTML ="Your Akan Name is" +" "+ (akanMale[1]);
             
@@ -72,7 +72,7 @@ function myFunction(){
       
             }
 
-             if(exactDay===4 && male===true){
+     if(exactDay===4 && male===true){
         console.log(akanMale[4]);
         document.getElementById("demo").innerHTML ="Your Akan Name is" +" "+ (akanMale[4]);
         
@@ -82,7 +82,7 @@ function myFunction(){
           document.getElementById("demo").innerHTML ="Your Akan Name is" +" "+ (akanFemale[4]);   
   
         }
-        if(exactDay===5 && male===true){
+    if(exactDay===5 && male===true){
           console.log(akanMale[5]);
           document.getElementById("demo").innerHTML ="Your Akan Name is" +" "+ (akanMale[5]);
           
@@ -92,7 +92,7 @@ function myFunction(){
             document.getElementById("demo").innerHTML ="Your Akan Name is" +" "+ (akanFemale[5]);   
     
           }
-          if(exactDay===6 && male===true){
+    if(exactDay===6 && male===true){
             console.log(akanMale[6]);
             document.getElementById("demo").innerHTML ="Your Akan Name is" +" "+ (akanMale[6]);
             

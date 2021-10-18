@@ -2,10 +2,14 @@
 	width:0.2 px;
 	height:0.2 px;
 }
-.background {
-  background-image: url("/images/Images/49619.jpg");
-  background-size: 150px;
-  width: 300px;
-  height: 300px;
-  border: solid 2px red;
-}
+body {
+  background-image: url(/images/Images/49619.jpg);
+  height: 500px;
+  width: auto;
+ }
+ #demo{
+   font-weight: bold;
+   font-size: x-large;
+   color: green;
+ }
+ 
