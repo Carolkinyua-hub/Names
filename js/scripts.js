@@ -53,8 +53,7 @@ function myFunction(){
         }
   if(exactDay===2 && male===true){
           console.log(akanMale[2]);
-          document.getElementById("demo").innerHTML ="Your Akan Name is" +" "+ (akanMale[1]);
-          
+          document.getElementById("demo").innerHTML ="Your Akan Name is" +" "+ (akanMale[2]);
         }
           else if(exactDay===2 && male===false){
             console.log(akanFemale[2]);
