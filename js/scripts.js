@@ -2,7 +2,11 @@
 function myFunction(){
 	let yy=(document.getElementById("bday").value)
   console.log(yy);
-  
+
+  if(document.getElementById("bday").value.length == 0)
+{
+    alert("Pick a Date")
+}
   let newDate=new Date(yy)
   console.log (newDate);
 
