@@ -2,15 +2,13 @@
 function myFunction(){
 	let yy=(document.getElementById("bday").value)
   console.log(yy);
-  if (NaN=true) {
-    alert("Enter valid date")
-  }
-
+  
   let newDate=new Date(yy)
   console.log (newDate);
 
   let year=newDate.getFullYear();
   console.log(year);
+
 
   let month=newDate.getMonth();
   console.log(month);
@@ -19,7 +17,8 @@ function myFunction(){
   console.log(day);
 
   let exactDay=parseInt(newDate.getDay())
-	console.log(exactDay);
+  console.log(exactDay);
+  
 	let gender = document.querySelector('input[name = gender]:checked').value;
 		
   console.log(gender);
@@ -57,10 +56,7 @@ function myFunction(){
   if(exactDay===2 && male===true){
           console.log(akanMale[2]);
           document.getElementById("demo").innerHTML ="Your Akan Name is" +" "+ (akanMale[2]);
-<<<<<<< HEAD
           
-=======
->>>>>>> gh-pages
         }
           else if(exactDay===2 && male===false){
             console.log(akanFemale[2]);
@@ -70,10 +66,7 @@ function myFunction(){
     if(exactDay===3 && male===true){
             console.log(akanMale[3]);
             document.getElementById("demo").innerHTML ="Your Akan Name is" +" "+ (akanMale[3]);
-<<<<<<< HEAD
             
-=======
->>>>>>> gh-pages
           }
             else if(exactDay===3 && male===false){
               console.log(akanFemale[3]);
@@ -111,5 +104,7 @@ function myFunction(){
               document.getElementById("demo").innerHTML ="Your Akan Name is" +" "+ (akanFemale[6]);   
       
             }
+
+  
           
   };
