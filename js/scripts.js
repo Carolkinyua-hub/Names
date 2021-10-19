@@ -1,7 +1,10 @@
 
 function myFunction(){
 	let yy=(document.getElementById("bday").value)
-	console.log(yy);
+  console.log(yy);
+  if (NaN=true) {
+    alert("Enter valid date")
+  }
 
   let newDate=new Date(yy)
   console.log (newDate);
@@ -54,7 +57,10 @@ function myFunction(){
   if(exactDay===2 && male===true){
           console.log(akanMale[2]);
           document.getElementById("demo").innerHTML ="Your Akan Name is" +" "+ (akanMale[2]);
+<<<<<<< HEAD
           
+=======
+>>>>>>> gh-pages
         }
           else if(exactDay===2 && male===false){
             console.log(akanFemale[2]);
@@ -64,7 +70,10 @@ function myFunction(){
     if(exactDay===3 && male===true){
             console.log(akanMale[3]);
             document.getElementById("demo").innerHTML ="Your Akan Name is" +" "+ (akanMale[3]);
+<<<<<<< HEAD
             
+=======
+>>>>>>> gh-pages
           }
             else if(exactDay===3 && male===false){
               console.log(akanFemale[3]);
