@@ -1,11 +1,9 @@
-.img{
-	width:0.2 px;
-	height:0.2 px;
-}
+
 body {
-  background-image: url(images/Images/49619.jpeg);
-  height: 500px;
+  background-image: url(/images/Images/49619.jpeg);
+  height: 800px;
   width: auto;
+  background-repeat: no-repeat;
  }
  #demo{
    font-weight: bold;
