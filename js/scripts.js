@@ -2,9 +2,6 @@
 function myFunction(){
 	let yy=(document.getElementById("bday").value)
   console.log(yy);
-  if (NaN=true) {
-    alert("Enter valid date")
-  }
 
   let newDate=new Date(yy)
   console.log (newDate);
